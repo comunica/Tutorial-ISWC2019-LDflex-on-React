@@ -1,0 +1,40 @@
+body {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+body, input, button {
+  font: 11pt/1.3 "Helvetiva Neue", Helvetica, Arial, sans-serif;
+}
+
+button, label {
+  font-weight: bold;
+}
+button, input {
+  margin-left: 1ex;
+  margin-bottom: 1ex;
+}
+
+#profile {
+  width: 400px;
+}
+
+li button {
+  border: none;
+  background: none;
+  padding: 0;
+  color: #0d1b9b;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+li button:hover {
+  color: #9b79fc;
+}
+
+.profile-img {
+  border: 2px solid orange;
+  border-radius: 3px;
+  padding: 7px;
+  width: 10%;
+}
